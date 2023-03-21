@@ -88,8 +88,8 @@ posthtml()
 
 See [PostHTML Guidelines](https://github.com/posthtml/posthtml/tree/master/docs) and [contribution guide](CONTRIBUTING.md).
 
-[action]: https://github.com/caragammon/posthtml-picture-srcset/workflows/Actions%20Status/badge.svg
-[action-url]: https://github.com/caragammon/posthtml-picture-srcset/actions?query=workflow%3A%22CI+tests%22
+[action]: https://github.com/kingkongdevs/posthtml-picture-srcset/workflows/Actions%20Status/badge.svg
+[action-url]: https://github.com/kingkongdevs/posthtml-picture-srcset/actions?query=workflow%3A%22CI+tests%22
 
 [npm]: https://img.shields.io/npm/v/posthtml-picture-srcset.svg
 [npm-url]: https://npmjs.com/package/posthtml-picture-srcset

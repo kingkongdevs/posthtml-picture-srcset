@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "PostHTML plugin for generating webp images and replacing <img> tags with <picture> tags and their responsive srcset attributes",
   "license": "MIT",
-  "repository": "caragammon/posthtml-picture-srcset",
-  "author": "caragammon",
+  "repository": "kingkongdevs/posthtml-picture-srcset",
+  "author": "kingkongdevs",
   "main": "lib",
   "engines": {
     "node": ">=10"
