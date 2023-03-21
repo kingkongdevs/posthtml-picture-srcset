@@ -1,0 +1,37 @@
+{
+  "name": "plugin_name",
+  "version": "0.0.0",
+  "description": "PostHTML plugin description",
+  "license": "MIT",
+  "repository": "USER_NAME/PLUGIN_NAME",
+  "author": "USER_NAME",
+  "main": "lib",
+  "engines": {
+    "node": ">=10"
+  },
+  "scripts": {
+    "version": "conventional-changelog -i changelog.md -s -r 0 && git add changelog.md",
+    "test": "xo && nyc ava",
+    "pretest": "clinton"
+  },
+  "keywords": [
+    "html",
+    "posthtml",
+    "posthtml-plugin"
+  ],
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "image-size": "^1.0.1"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^11.0.0",
+    "@commitlint/config-angular": "^11.0.0",
+    "ava": "^3.13.0",
+    "clinton": "^0.14.0",
+    "conventional-changelog-cli": "^2.0.31",
+    "husky": "^4.3.0",
+    "nyc": "^15.1.0",
+    "posthtml": "^0.13.3",
+    "xo": "^0.33.1"
+  }
+}
