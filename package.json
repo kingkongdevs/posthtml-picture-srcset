@@ -1,10 +1,10 @@
 {
-  "name": "plugin_name",
-  "version": "0.0.0",
-  "description": "PostHTML plugin description",
+  "name": "posthtml-picture-srcset",
+  "version": "1.0.0",
+  "description": "PostHTML plugin for generating webp images and replacing <img> tags with <picture> tags and their responsive srcset attributes",
   "license": "MIT",
-  "repository": "USER_NAME/PLUGIN_NAME",
-  "author": "USER_NAME",
+  "repository": "caragammon/posthtml-picture-srcset",
+  "author": "caragammon",
   "main": "lib",
   "engines": {
     "node": ">=10"
