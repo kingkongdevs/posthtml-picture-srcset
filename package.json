@@ -4,6 +4,7 @@
   "description": "PostHTML plugin for generating webp images and replacing <img> tags with <picture> tags and their responsive srcset attributes",
   "license": "MIT",
   "repository": "kingkongdevs/posthtml-picture-srcset",
+  "type": "module",
   "author": "kingkongdevs",
   "main": "lib",
   "engines": {
