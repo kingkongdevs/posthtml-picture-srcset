@@ -1,12 +1,12 @@
 {
   "name": "posthtml-picture-srcset",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "PostHTML plugin for generating webp images and replacing <img> tags with <picture> tags and their responsive srcset attributes",
   "license": "MIT",
   "repository": "kingkongdevs/posthtml-picture-srcset",
-  "type": "module",
   "author": "kingkongdevs",
   "main": "lib",
+  "exports": "./lib/pictureSrcset.js",
   "engines": {
     "node": ">=10"
   },
